@@ -94,10 +94,91 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 30px 0;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: #09090E;
+}
+
+.header-contact {
+    color: #D9E2E2;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* ===== END HEADER ===== */
+
+/* ===== MAIN-NAVIGATION ===== */
+nav {
+    background: #839898;
+    padding: 10px 0;
+}
+
+.main-nav .nav-item {
+    margin-right: 30px;
+}
+
+.main-nav .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.main-nav .nav-item a {
+    color: #fff;
+    font-weight: bold;
+}
+/* ===== END MAIN-NAVIGATION ===== */
+
+
+/*===== INTRODUCTION ===== */
+.introduction {
+    background: url(../img/panorama/New-York_at-night.JPG) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0;
+    color: #D9E2E2;
+    padding: 100px 0;
+}
+/* ===== END INTRODUCTION ===== */
 
 
 
 
+/* == HELPER CLASS == */
+.flex {
+    display: flex; /* New notation */
+    display: -webkit-box; /* old notation */
+}
+
+.flex-sb {
+    justify-content: space-between; /* New notation */
+    -webkit-box-pack: justify; /* old notation */
+}
+
+.flex-ai {
+    align-items: center; /* New notation */
+    -webkit-box-align: center; /* old notation */
+}
 
 
 
