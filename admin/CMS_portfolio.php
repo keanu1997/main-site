@@ -10,8 +10,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -23,7 +23,7 @@
         <header>
             <div class="container flex flex-sb flex-ai">
                 <div class="logo-holder">
-                    <h1><a href="index.html"><img src="img/logo-placeholder_220x70.png" alt="janssen.online"></a></h1>
+                    <h1><a href="index.html"><img src="../img/logo-placeholder_220x70.png" alt="janssen.online"></a></h1>
                 </div>
                 <div class="header-contact">
                     <ul>
@@ -52,11 +52,22 @@
             <section class="introduction">
                 <div class="container">
                     <div class="introduce">
-                        <h2>Welkom</h2>
-                        <p>Hallo en welkom op mijn portfolio website. Ik zal mijzelf even voorstellen,</p>
-                        <p>mijn naam is Keanu Ryan Janssen en ik ben student mediadeveloper (Crebo: 95313) aan het Radius College te Breda, mijn grootste hobby is het produceren of coveren van muziek ik woon bij mijn ouders in Sint Philipsland en slijt mijn dagen met onder andere het coderen van webapplicaties.</p>
-                        <p>Ik heb deze website gemaakt om mijzelf aan u voor te stellen, u kunt op mijn website onder andere informatie over mijn opleiding, mijn curriculum vitae en mijn portfolio vinden. Ik hoop u hiermee voldoende te hebben geïnformeerd als u vragen heeft kunt u contact met mij opnemen.</p>
-                    </div>
+                        <h2>Insert Portfolio item</h2>
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="">Name :</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Description :</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="">URL :</label>
+                                <input type="text">
+                            </div>
+                            <input type="submit" value="submit">
+                        </form>
                 </div>
             </section>
         </div>

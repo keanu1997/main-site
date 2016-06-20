@@ -113,6 +113,18 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 section {
     padding: 30px 0;
 }
@@ -152,7 +164,7 @@ nav {
 
 /*===== INTRODUCTION ===== */
 .introduction {
-    background: url(../img/panorama/New-York_at-night.JPG) no-repeat;
+    background: url(../img/panorama/New-York_at-night_shadow.JPG) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0;
@@ -171,16 +183,34 @@ nav {
 }
 
 .flex-sb {
+    display: flex; /* New notation */
+    display: -webkit-box; /* old notation */
     justify-content: space-between; /* New notation */
     -webkit-box-pack: justify; /* old notation */
 }
 
 .flex-ai {
+    display: flex; /* New notation */
+    display: -webkit-box; /* old notation */
     align-items: center; /* New notation */
     -webkit-box-align: center; /* old notation */
 }
 
+.flex-d {
+    display: flex; /* New notation */
+    display: -webkit-box; /* old notation */
+    flex-direction: column; /* New notation */
+    -webkit-box-orient: vertical; /* old notation */
+}
 
+/* FORM */
+.form-group {
+    display: flex; /* New notation */
+    display: -webkit-box; /* old notation */
+    flex-direction: column; /* New notation */
+    -webkit-box-orient: vertical; /* old notation */
+}
+/* END FORM*/
 
 
 
